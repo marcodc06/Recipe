@@ -96,6 +96,27 @@ footer {
   margin-top: 20px;
 }
 
+.side-dishes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.side-dish {
+  flex: 0 0 calc(50% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.side-dish img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 767px) {
   nav.menu {
     flex-direction: column;
