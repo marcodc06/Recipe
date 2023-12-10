@@ -1,0 +1,137 @@
+body, h1, h2, h3, p, ul, li, button, menu, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #7abfbf;
+    color: #0d0d0d;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #eb5428;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  nav.menu .sign-in {
+    order: -1;
+    margin-left: auto;
+  }
+  
+  aside {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  section.recipe {
+    flex: 2;
+  }
+  
+  section.side-bar {
+    flex: 1;
+  }
+  
+  .side-bar .main-navigation {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .side-bar button {
+    background-color: transparent;
+    color: #eb5428;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .side-bar button svg {
+    margin-right: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    nav.menu {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    nav.menu a {
+      margin: 10px 0;
+    }
+  
+    aside {
+      flex-direction: column;
+    }
+  
+    section.recipe {
+      order: -1;
+    }
+  
+    section.side-bar {
+      margin-top: 20px;
+    }
+  
+    .side-bar {
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    nav.menu a {
+      font-size: 18px;
+    }
+  
+    .side-bar button {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    nav.menu a {
+      font-size: 24px;
+    }
+  
+    .side-bar button {
+      font-size: 18px;
+    }
+  }
+  
