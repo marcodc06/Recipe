@@ -220,3 +220,18 @@ footer {
     max-width: 100%;
   }
 }
+@media only screen and (min-width: 768px) {
+  .side-dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+  .side-dish {
+    flex: 1;
+    max-width: 300px;
+    background-color: transparent; 
+    margin: 10px;
+  }
+}
