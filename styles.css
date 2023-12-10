@@ -109,6 +109,7 @@ footer {
   padding: 20px;
   color: #fff;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .side-dish img {
