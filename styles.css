@@ -154,12 +154,14 @@ footer {
     font-size: 14px;
   }
 
-  .ingredients, .directions {
+  .ingredients,
+  .directions {
     flex: 1;
     margin-right: 0;
   }
 
-  .ingredients h4, .directions h4 {
+  .ingredients h4,
+  .directions h4 {
     font-size: 16px;
     margin-bottom: 8px;
   }
@@ -180,12 +182,14 @@ footer {
   margin-right: 20px;
 }
 
-.ingredients h4, .directions h4 {
+.ingredients h4,
+.directions h4 {
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-.ingredients ul, .directions ol {
+.ingredients ul,
+.directions ol {
   list-style-type: none;
   padding: 0;
 }
