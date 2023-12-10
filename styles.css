@@ -100,13 +100,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
 }
 
 .side-dish {
   flex: 0 0 calc(48% - 20px);
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 10px;
   color: #fff;
   text-align: center;
   box-sizing: border-box;
@@ -189,4 +189,34 @@ footer {
 .ingredients ul, .directions ol {
   list-style-type: none;
   padding: 0;
+}
+
+/* print i think */
+
+
+@media print {
+  body {
+    margin: 0.5in;
+    font-family: serif;
+  }
+
+  nav {
+    display: none;
+  }
+
+  img {
+    filter: grayscale(100%);
+    max-width: 100%;
+    height: auto;
+  }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+  }
+
+  @page {
+    size: A4;
+    max-height: 100%;
+    max-width: 100%;
+  }
 }
