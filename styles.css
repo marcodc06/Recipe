@@ -29,7 +29,14 @@ body, h1, h2, h3, p, ul, li, button, menu, figure {
     padding: 10px;
     text-align: center;
   }
-  
+
+  .nav-link img {
+    max-width: 30px;
+    max-height: 30px;
+    width : auto ;
+    height: auto;
+    margin-right: 5px;
+  }
   nav.menu {
     display: flex;
     justify-content: space-between;
