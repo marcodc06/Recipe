@@ -141,4 +141,19 @@ body, h1, h2, h3, p, ul, li, button, menu, figure {
       font-size: 18px;
     }
   }
+  .ingredients, .directions {
+    flex: 1;
+    margin-right: 20px; /* Add some spacing between the columns */
+  }
   
+  .ingredients h4,
+  .directions h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .ingredients ul,
+  .directions ol {
+    list-style-type: none;
+    padding: 0;
+  }
