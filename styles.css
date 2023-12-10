@@ -143,7 +143,7 @@ body, h1, h2, h3, p, ul, li, button, menu, figure {
   }
   .ingredients, .directions {
     flex: 1;
-    margin-right: 20px; /* Add some spacing between the columns */
+    margin-right: 20px; 
   }
   
   .ingredients h4,
